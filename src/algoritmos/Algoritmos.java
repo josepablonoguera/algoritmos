@@ -14,7 +14,28 @@ public class Algoritmos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        System.out.println("Hola a mi programa");
+        int vec[] = {1,5,6,5,8,4,9,7};
+
+        int matr[]= new int[5];
+
+         for (int i = 0; i < matr.length; i++) {
+            
+        }
+
+
+
+
+
+        System.out.println(vec.length);
+        int j = 0;
+        for (int i = 0; i < vec.length; i++) {
+           // System.out.println(i);
+            i++;
+            j++;
+        }
+        System.out.println("j: "+j);
     }
-    
+
 }
